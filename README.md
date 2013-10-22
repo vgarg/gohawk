@@ -5,7 +5,7 @@ A shell script that may be combined with [fswatch](https://github.com/alandipert
 ### Usage with `fswatch`
     fswatch /golang/project/dir "gohawk.sh cmd"
 
-This example assumes both `fswatch` and `gowatch.sh` to be in the PATH
+This example assumes both `fswatch` and `gowatch.sh` are in the PATH
 
 ### Credits
 Inspired by [gowatcher](https://github.com/nickjj/gowatcher) for Linux.
