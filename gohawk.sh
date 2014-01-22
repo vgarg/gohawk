@@ -9,7 +9,7 @@ if [ "$1" != "" ];
 fi
 
 echo compiling
-if go install
+if go install ./...
     then 
       if [ "$1" != "" ];
       then
@@ -17,5 +17,5 @@ if go install
         $1 &
       fi
       echo testing
-      go test
+      go test ./...
 fi
